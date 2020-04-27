@@ -28,11 +28,11 @@ conjunto.discard( 5 )
 print( conjunto )
 
 
-# união de conjuntos
+# união de conjuntos, a união ordena os elementos.
 print ( '\n' )
 
 
-conjunto_a = { 1, 2, 3, 4, 5 }
+conjunto_a = { 1, 3, 2, 4, 5 }
 print( 'Conjunto A: {} '.format( conjunto_a) )
 conjunto_b = { 5, 6, 7, 8, 9 }
 print( 'Conjunto B: {} '.format( conjunto_b) )
