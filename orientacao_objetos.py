@@ -8,6 +8,9 @@ class Calculadora:
     
 #inicializar valores dentro de uma classe
 
+    def __init__(self):
+        pass
+
     def __init__(self, x, y):
         self.valor_a = x
         self.valor_b = y
@@ -21,7 +24,7 @@ class Calculadora:
         return self.valor_a + self.valor_b
 
 
-    def sosubtracao ( self ):
+    def sosubtracao ( self ): 
         return self.valor_a - self.valor_b
 
     def multiplicacao ( self ):
@@ -34,6 +37,6 @@ class Calculadora:
             return 0
 
 
-
-calculadora = Calculadora( 10, 0 )
-print( calculadora.divisao() )
+if __name__ == 'main':
+    calculadora = Calculadora( 10, 0 )
+    print( calculadora.divisao() )
