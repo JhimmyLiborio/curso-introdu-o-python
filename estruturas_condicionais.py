@@ -1,4 +1,7 @@
-# Aula 02 - Estrutura condicionais e operadores lógicos.
+##########################################################
+# Aula 02 - Estrutura condicionais e operadores lógicos. #
+#                                                        #
+##########################################################
 
 
 modelo_triangulo = "não encontrado"
