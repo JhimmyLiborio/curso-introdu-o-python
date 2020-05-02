@@ -1,6 +1,6 @@
-# variaéveis
-# tipadas dinamicamente
-# fortemente tipadas
+#############################################
+# Título: Introdução a linguagem            #
+#############################################
 
 
 a = 10;
